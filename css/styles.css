@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: #3b6978;
+  background-color: #e4e3e3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+  color: #3b6978;
+  background-color: #204051;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2 {
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  font-family: 'Monda', sans-serif;
+}
+
+.title h1{
+    color: #204051;
+}
+
+#contact h2{
+    color: #e4e3e3;
+}
+
+h3,h4{
+  font-family: 'Monda', sans-serif;
+  letter-spacing: 2px;
+  color: #e4e3e3;
+}
+
+hr {
+  width: 30%;
+}
+
+#title {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #e4e3e390;
+}
+
+.nav-link{
+  margin: 0 15px;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+.title {
+  margin: 20% 0 22%;
+}
+
+#about {
+  padding: 5% 0 5%;
+  color: #e4e3e3;
+  background-color: #204051;
+  text-align: center;
+}
+
+.about-text{
+  padding:0 10% 5%;
+}
+
+.logo {
+  margin-bottom: 25px;
+  width: 20%;
+  height: auto;
+}
+
+.jq{
+  margin-top: 30px;
+}
+
+#portfolio {
+  padding: 5% 0 5%;
+  text-align: center;
+}
+
+#contact {
+    padding: 5% 0 5%;
+    background-color: #204051;
+    color: #e4e3e3;
+    text-align: center;
+}
+
+
+.icon {
+  margin: 20px 20px;
+  font-size: 3rem;
+  color: #e4e3e3;
+}
+
+/* Javascript Manip */
