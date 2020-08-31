@@ -41,6 +41,8 @@ hr {
   text-align: center;
 }
 
+
+
 .navbar {
   background-color: #e4e3e390;
 }
@@ -96,3 +98,6 @@ hr {
 }
 
 /* Javascript Manip */
+.hidden{
+  display:none;
+}

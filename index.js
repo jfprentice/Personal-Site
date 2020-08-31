@@ -1,15 +1,20 @@
-$(document).ready(function(){
-  $("#title").hover(function(){
-    $(".navbar").fadeIn();
-    setTimeout(function(){
-      $("h1").fadeIn();
-    }, 500);
-    setTimeout(function(){
-      $("hr").fadeIn();
-    }, 250);
-    setTimeout(function(){
-      $("p").fadeIn();
-    }, 500);
+pageLoad();
 
-  })
-});
+
+function pageLoad(){
+  $(document).ready(function(){
+    $("h1.hidden").fadeIn(2000);
+    setTimeout(function(){
+      $("hr.hidden").fadeIn(1000);
+      setTimeout(function(){
+        $("p.hidden").fadeIn(1000);
+        setTimeout(function(){
+          $(".navbar").fadeIn(1000);
+          setTimeout(function(){
+            $(".hidden").fadeIn(2000);
+          }, 1000);
+        }, 1000);
+      }, 1000);
+    }, 1000);
+  });
+}

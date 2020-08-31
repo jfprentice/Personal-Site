@@ -21,7 +21,7 @@
 <body>
 
   <section id="title">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light hidden">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -41,13 +41,13 @@
     </nav>
 
     <div class="container-fluid title">
-      <h1>Josh Prentice</h1>
-      <hr>
-      <p>Junior Web Developer</p>
+      <h1 class="hidden">Josh Prentice</h1>
+      <hr class="hidden">
+      <p class="hidden">Junior Web Developer</p>
     </div>
   </section>
 
-  <section id="about">
+  <section id="about" class="hidden">
     <div class="container-fluid">
       <div class="about-text">
         <h2>About Me</h2>
@@ -84,14 +84,14 @@
 
   </section>
 
-  <section id="portfolio">
+  <section id="portfolio" class="hidden">
     <div class="container-fluid">
       <h2>Portfolio</h2>
       <hr>
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="hidden">
     <div class="container-fluid">
       <h2>Contact Me</h2>
       <hr>
@@ -123,7 +123,7 @@
   <script src="index.js" charset="utf-8"></script>
 
 </body>
-<footer>
+<footer class="hidden">
   Josh Prentice 2020
 </footer>
 
