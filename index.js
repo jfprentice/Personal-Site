@@ -9,10 +9,7 @@ function pageLoad(){
       setTimeout(function(){
         $("p.hidden").fadeIn(1000);
         setTimeout(function(){
-          $(".navbar").fadeIn(1000);
-          setTimeout(function(){
-            $(".hidden").fadeIn(2000);
-          }, 1000);
+          $(".hidden").fadeIn(1000);
         }, 1000);
       }, 1000);
     }, 1000);
